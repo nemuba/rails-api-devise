@@ -1,8 +1,6 @@
 module Api
   module V1
     class ApiController < ActionController::API
-      protect_from_forgery with: :null_session
-
       include ExceptionHandler
       include ActAsApiRequest
       include Localizable
