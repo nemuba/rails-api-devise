@@ -2,7 +2,7 @@ module Api
   module V1
     class PasswordsController < DeviseTokenAuth::PasswordsController
       protect_from_forgery with: :null_session
-      
+
       include ExceptionHandler
       include ActAsApiRequest
       include Localizable

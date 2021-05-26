@@ -2,7 +2,7 @@ module Api
   module V1
     class RegistrationsController < DeviseTokenAuth::RegistrationsController
       protect_from_forgery with: :null_session
-      
+
       include ExceptionHandler
       include ActAsApiRequest
       include Localizable
