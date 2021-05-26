@@ -1,6 +1,8 @@
 module Api
   module V1
     class SessionsController < DeviseTokenAuth::SessionsController
+      protect_from_forgery with: :null_session
+      
       include ExceptionHandler
       include ActAsApiRequest
       include Localizable

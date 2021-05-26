@@ -1,6 +1,8 @@
 module Api
   module V1
     class TokenValidationsController < DeviseTokenAuth::TokenValidationsController
+      protect_from_forgery with: :null_session
+      
       include ExceptionHandler
       include ActAsApiRequest
       include Localizable
