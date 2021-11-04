@@ -5,14 +5,14 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'rails', '~> 6.0.3'
 
 # WebServer
-gem 'puma', '~> 5.3'
+gem 'puma', '~> 5.5'
 gem 'rack', '~> 2.2.3'
 gem 'rack-attack', '~> 6.5.0'
 gem 'rack-cors', '~> 1.1.1'
 
 # Database
 gem 'pg', '~> 1.2.3'
-gem 'strong_migrations', '~> 0.7.6'
+gem 'strong_migrations', '~> 0.7.8'
 
 # Environment variables
 gem 'dotenv-rails', '~> 2.7.6'
@@ -25,7 +25,7 @@ gem 'nilify_blanks', '~> 1.4'
 
 # Backoffice
 gem 'activeadmin', '~> 2.8.1'
-gem 'activeadmin_addons', '~> 1.7.1'
+gem 'activeadmin_addons', '~> 1.8.3'
 gem 'active_admin_theme', '~> 1.1'
 gem 'chartkick', '~> 4.0.5'
 gem 'groupdate', '~> 5.2.2'
@@ -55,7 +55,7 @@ end
 group :development do
   gem 'annotate', '~> 3.1.1'
   gem 'letter_opener', '~> 1.7.0'
-  gem 'listen', '>= 3.0.5', '< 3.6'
+  gem 'listen', '>= 3.0.5', '< 3.8'
   gem 'reek', '~> 6.0.4', require: false
   gem 'rubocop', '~> 1.22.3', require: false
   gem 'rubocop-rails', '~> 2.10.1', require: false
@@ -66,7 +66,7 @@ end
 
 group :test do
   gem 'rspec-json_expectations', '~> 2.2.0'
-  gem 'shoulda-matchers', '~> 4.5.1'
+  gem 'shoulda-matchers', '~> 5.0.0'
   gem 'simplecov', '~> 0.21.2'
   gem 'webmock', '~> 3.13.0'
 end
