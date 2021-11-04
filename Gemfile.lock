@@ -39,17 +39,15 @@ GEM
       rails-html-sanitizer (~> 1.1, >= 1.2.0)
     active_admin_theme (1.1.4)
     active_material (1.5.2)
-    activeadmin (2.8.1)
+    activeadmin (2.9.0)
       arbre (~> 1.2, >= 1.2.1)
       formtastic (>= 3.1, < 5.0)
       formtastic_i18n (~> 0.4)
       inherited_resources (~> 1.7)
       jquery-rails (~> 4.2)
       kaminari (~> 1.0, >= 1.2.1)
-      railties (>= 5.2, < 6.1)
+      railties (>= 5.2, < 6.2)
       ransack (~> 2.1, >= 2.1.1)
-      sassc-rails (~> 2.1)
-      sprockets (>= 3.0, < 4.1)
     activeadmin_addons (1.8.3)
       active_material
       railties
@@ -292,7 +290,7 @@ GEM
     rubocop-rspec (2.5.0)
       rubocop (~> 1.19)
     ruby-progressbar (1.11.0)
-    ruby2_keywords (0.0.4)
+    ruby2_keywords (0.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
@@ -354,7 +352,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_admin_theme (~> 1.1)
-  activeadmin (~> 2.8.1)
+  activeadmin (~> 2.9.0)
   activeadmin_addons (~> 1.8.3)
   annotate (~> 3.1.1)
   bootsnap (>= 1.4.2)
